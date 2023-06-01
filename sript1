@@ -1,3 +1,4 @@
 #!/bin/bash/
 apt -grt update 
 apt install httpd -y
+systemctl status httpd 
